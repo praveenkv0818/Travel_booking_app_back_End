@@ -36,7 +36,7 @@ app.use('/uploads', express.static(__dirname+'/uploads'));
 
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:3000',
+  origin: 'https://travel-booking-app-front-end.vercel.app',
 }));
 
 const storage = multer.memoryStorage();
